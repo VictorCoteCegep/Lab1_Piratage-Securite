@@ -35,7 +35,7 @@ int main(int argc, char* argv[])
 
 	//Il est possible ici de faire éxcecuter n'importe quel commande grace à la commande system()
 	//Je crois qu'il faut tout simplement supprimer cette partie de code, il est beaucoup trop risqué de laisser un utilisateur faire
-	//les commandes qu'il veut.
+	//les commandes qu'il veut dans notre os.
 	const char* commande{ argv[5] };
 	system(commande);
 }
